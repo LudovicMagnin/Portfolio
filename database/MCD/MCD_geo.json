@@ -1,0 +1,25 @@
+{
+  "width": 321,
+  "height": 313,
+  "cx": [
+    [ "OWN", 49 ],
+    [ "USER", 152 ],
+    [ "EMPLOY", 265 ],
+    [ "VIRTUALCARD", 49 ],
+    [ "COMPANY", 265 ]
+  ],
+  "cy": [
+    [ "OWN", 68 ],
+    [ "USER", 68 ],
+    [ "EMPLOY", 68 ],
+    [ "VIRTUALCARD", 228 ],
+    [ "COMPANY", 228 ]
+  ],
+  "shift": [
+    [ "OWN,VIRTUALCARD,0", 0 ],
+    [ "OWN,USER,0", 0 ],
+    [ "EMPLOY,USER,0", 0 ],
+    [ "EMPLOY,COMPANY,0", 0 ]
+  ],
+  "ratio": []
+}

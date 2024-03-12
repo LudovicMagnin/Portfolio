@@ -1,0 +1,7 @@
+OWN, 11 VirtualCard, 0N user: owned by
+user: firstname, lastname, email, password, type
+EMPLOY, 11 user, 0N Company: employed by
+
+VirtualCard: number, holder, month, year, cvc, amount, status
+:
+Company: name, address, zipcode, city, country

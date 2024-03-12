@@ -1,0 +1,12 @@
+
+GET http://mellifico-server.eddi.cloud:8080/users?fields=*.* HTTP/1.1
+
+###
+GET http://mellifico-server.eddi.cloud:8080/items/VirtualCard?fields=*.* HTTP/1.1
+
+###
+GET http://mellifico-server.eddi.cloud:8080/items/Company?fields=*.* HTTP/1.1
+
+
+
+
