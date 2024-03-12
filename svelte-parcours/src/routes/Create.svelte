@@ -1,5 +1,18 @@
 <script>
     import { link } from "svelte-spa-router";
+
+    async function getCard (CardId) {
+    const response = await fetch(
+      import.meta.env.VITE_DIRECTUS_API_URL + "/create-cc" + CardId
+    );
+    if (response.ok) {
+      const CreateCard = await response.json();
+    }
+
+    else {
+    }
+  }
+
     </script>
     <body>
   <header class="top">
