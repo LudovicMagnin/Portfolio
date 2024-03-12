@@ -2,13 +2,12 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
-  import Router, { location } from "svelte-spa-router"
+  import Router from "svelte-spa-router"
   import routes from './routes'
 
 </script>
 
 <Router {routes} />
-
 <main>
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
@@ -32,6 +31,7 @@
     Click on the Vite and Svelte logos to learn more
   </p>
 </main>
+
 
 <style>
   .logo {

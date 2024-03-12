@@ -1,9 +1,15 @@
-import Main from './routes/Main.svelte';
-import Style from './routes/Style.svelte';
+import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
+import Home from "./routes/Home.svelte";
+import Vite from "./routes/Vite.svelte";
+import Svelte from "./routes/Svelte.svelte";
+import SvelteKit from "./routes/SvelteKit.svelte";
+
 
 const routes = {
-    '/': Main,
-    '/style': Style
+    '/': Home,
+    '/vite': Vite,
+    '/svelte': Svelte,
+    '/sveltekit': SvelteKit
   };
   
   export default routes;
